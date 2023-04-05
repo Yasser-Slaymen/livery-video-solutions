@@ -34,9 +34,9 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: transparent;
-} 
+}
 
-.fourth_Sectiontext4{
+.fourth_Sectiontext4 {
   text-align: start;
   font-weight: unset;
   font-size: 1em;
@@ -56,9 +56,9 @@
   width: 130px;
   height: 236px;
 }
-.fourth_Sectiontext4Link{
+.fourth_Sectiontext4Link {
   text-decoration: none;
-  color: #929AFF;;
+  color: #929aff;
 }
 @media (min-width: 45em) {
   .Fourthection {
@@ -83,17 +83,16 @@
     font-size: 36px;
     margin-top: 1em;
     text-align: center;
-    
   }
-  .fourth_Sectiontext4{
+  .fourth_Sectiontext4 {
     max-width: 381px;
     width: 100%;
   }
-  .fourth_Sectiontext4 p{
+  .fourth_Sectiontext4 p {
     font-weight: unset;
     font-size: 1em;
     line-height: unset;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     width: 370px;
   }
   .fourth_imgGirl {
