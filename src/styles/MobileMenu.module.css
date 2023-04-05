@@ -82,47 +82,11 @@
   background-color: #ffff;
   height: 100vh;
   animation: slideIn 0.5s ease;
-
 }
-@keyframes slideIn {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0%);
-  }}
-/* 
-.slide-in {
-  animation-name: slideIn;
-  animation-timing-function: ease;
+
+.hidden {
+  animation: slideOut 0.5s ease;
   animation-fill-mode: forwards;
-}
-
-.slide-out {
-  animation-name: slideOut;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
-}
-
-@keyframes slideOut {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-} */
-
-/* .MobileMenuContent {
   position: absolute;
   top: 0%;
   display: flex;
@@ -132,18 +96,25 @@
   width: 100%;
   background-color: #ffff;
   height: 100vh;
-  animation: slideIn 0.5s ease;
-
 }
+
 @keyframes slideIn {
   from {
     transform: translateX(-100%);
   }
   to {
     transform: translateX(0%);
-  }
-} */
+  }}
 
+  @keyframes slideOut {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+      display: none;
+    }
+  }
 .MobileListItems {
   display: flex;
   flex-direction: column;
