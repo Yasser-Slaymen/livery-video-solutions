@@ -62,13 +62,21 @@
     max-width: unset;
     max-height: 75vh;
   }
-  .FirstSection_content {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 14%;
-    left: 52%;
-  }
+  
+  @media (min-width: 45em) {
+    .FirstSection_content {
+      position: absolute;
+      top: 13vh;
+      left: 50vw;
+    }
+    }
+    @media (min-width: 98em) {
+      .FirstSection_content {
+        position: absolute;
+        top: 19vh;
+        left: 53vw;
+      }
+      }
   .FirstSection_content h1 {
     max-width: 9em;
     font-weight: 800;
