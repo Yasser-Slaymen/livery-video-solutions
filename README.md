@@ -1,12 +1,53 @@
-# Getting Started with Create React App
+## Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Solution page livery video
 
-## Available Scripts
 
-In the project directory, you can run:
+![solutioslivery](https://github.com/Yasser-Slaymen/livery-video-solutions/assets/90189815/fac4ca1e-e981-404d-82e3-5d0be3bbe831)
 
-### `npm start`
+## ☸️Kenmerken
+* HTML
+* CSS
+* React
+* Typscript
+* Figma
+* CMS: local Json
+
+
+## 🧭Installatie & Gebruik
+* Cloning the repository
+```javascript 
+git clone https://github.com/Yasser-Slaymen/livey-home-testing-live.git
+Moving to the folder cd livey-home-testing-live
+
+Install NPM packages
+
+ npm install
+ 
+Run local server
+
+npm run start
+   
+```
+
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
